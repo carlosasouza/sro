@@ -19,7 +19,6 @@ switch ($acao) {
     case 'LOGIN':
         include_once './Model/Usuario.php';
         $usuario = new Usuario($nome, $login, $senha);
-
         break;
     default:
         break;
